@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>URK17CS269</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="margin-left:10%;margin-right:10%;margin-top:2%;margin-bottom:2%">
+         <div>
+            <h1 style="font-size:3em" align="center">Karunya University</h1>
+        </div>
+        <hr color="red">
+        <nav>
+            <a href="lakshmiweb2.html">Home</a> &emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;
+            <a href="newhtml.html">Admission</a>&emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;
+            <a href="caender.html">Calender</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="text"placeholder="Search">
+        </nav>
+        <hr color="green">
+        <div>
+            <img src="karunya.jpg" width="1080px"height="450px">
+            <hr color="green">
+        </div>
+        <form action="first.php" method="post">
+            <fieldset>
+                <legend align="center">Admission Registration Form</legend>
+                <table>
+                    <tr>
+                        <td>Name<sup><font color="red">*</font>:</sup></td>
+                        <td><input type="text" size="20" maxlength="50" required autocomplete="off" autofocus></td>
+                    </tr>
+                    <tr>
+                        <td>Email<sup><font color="red">*</font>:</sup></td>
+                        <td><input type="text" required autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile No:</td>
+                        <td>
+                            <select>
+                                <optgroup label="Choose Country Code">
+                                <option>91</option>
+                                <option>1</option>
+                                <option>90</option>
+                                </optgroup>
+                            </select>
+                          <input type="number" maxlength="10" required autocomplete="off"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Applying For:</td>
+                        <td>
+                            <input type="radio" name="opt" value="opt1">UG
+                            <input type="radio" name="opt" value="opt2">PG
+                            <input type="radio" name="opt" value="opt3">DIPLOMA
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>
+                    <input type="button" value="Click me">
+                    <input type="submit" value="ok">
+                    <input type="Reset" value ="Clear">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            
+            
+        </form>
+    </body>
+</html>

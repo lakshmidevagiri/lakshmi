@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 2, 2019, 2:30:15 PM
+    Author     : urk17cs231
+*/
+*{
+    margin:0;
+   
+}
+
+header{
+   
+    text-align:center;
+    font-family: monospace;
+    color:white;
+}
+.headtext{
+    font-size:3em;
+    padding:20px;
+    text-shadow: 3px 5px black;
+}
+.head{
+     background-color:#46474a;
+}
+.navbar{
+    text-align: center;
+}
+nav{
+    background-color:#fca400;
+    padding:0.7%
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+ul a{
+   text-decoration: none;
+   padding: 0.7%  30px;
+   height: 100%;
+}
+ul a:hover{
+   
+    background-color: #8499f0;
+    color:white;
+    transition:0.5s;
+    border-radius: 10px;
+}
+li{
+    
+    display:inline;
+    padding: 100px;
+}
+.banner{
+    background-image:url("bb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+.parainbanner{
+    font-size: 1.5rem;
+    font-family: 'Ariel';
+    padding: 2.5% 10%;
+    text-align:justify;
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    
+
+}
+.banner-para{
+    
+}
+.tb div{
+  margin:0.5%;
+ display: inline-block;  
+
+}
+.tb1{
+    background-image: url('tb1.jpg');
+    width: 450px;
+    height:150px;
+    background-position: center center;
+    text-align: center; 
+}
+.tb2{
+    background-image: url('tb2.jpg');
+     width: 450px;
+    height:150px;
+    background-position: center center;
+    text-align: center; 
+}
+.tb3{
+    background-image: url('tb3.jpg');
+     width: 500px;
+    height:150px;
+    background-position: center center;
+    text-align: center; 
+}
+.tpara{
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+}

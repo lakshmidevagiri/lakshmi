@@ -1,0 +1,8 @@
+{
+    "name": "experiment-4",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "urk17cs269",
+    "contributors": [],
+    "dependencies": {}
+}

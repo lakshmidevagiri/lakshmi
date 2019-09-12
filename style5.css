@@ -1,0 +1,53 @@
+
+            body{
+                margin:0;
+                background-color: #c1eec5;
+                font-family: 'Times new roman';
+            }
+            table{
+                text-align: center;
+               
+                
+            }
+            td a{
+                width:100%;
+                height: 100%;
+               
+            }
+            td{
+                 padding:1% 2%;
+            }
+            nav td:hover{
+                background-color: #5b635a;
+                transition-duration: 0.5s;
+                
+            }
+            nav td a{
+                text-decoration: none;
+                color:#c5c2c2;
+            }
+            nav{
+                position: fixed;
+                top:0;
+                width:100%;
+                margin-bottom: 2%;
+                 background-color: #abf0a3;
+                 
+            }
+            .start{
+                margin:5%;
+            }
+            input{
+                margin:1%;
+            }
+            .cpy{
+                position:absolute;
+                bottom:1%;
+                margin:auto;
+                left:40%;
+                
+            }
+            body{
+                text-align: center;
+            }
+       

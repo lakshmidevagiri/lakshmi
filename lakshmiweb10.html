@@ -25,7 +25,7 @@ and open the template in the editor.
         E-Mail <input type='email' ng-model='emp.email' required><br>
         <input type='radio' name='r1' ng-model='emp.specialization' value="Development">Development
         <input type='radio' name='r1' ng-model='emp.specialization' value="Testing">Testing<br>
-        <input type='button' ng-click='reset()' value='reset'>
+        <input type='reset' ng-click='reset()' value='reset'>
         <input type='submit' ng-disabled='for.$invalid' ng-click='save(emp)' value='submit'>
         </form>
         <p>Form = {{emp}}</p>
